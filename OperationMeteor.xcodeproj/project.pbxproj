@@ -138,18 +138,18 @@
 		DB1ECD8729FB139A007E470B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DB1ECD8A29FB13DC007E470B /* MainTabView.swift */,
-				DB1ECD9629FB15A8007E470B /* VolunteerSignUpView.swift */,
-				DB1ECDB229FB19D7007E470B /* JobsView.swift */,
-				DB1ECD8E29FB141C007E470B /* ResourcesView.swift */,
-				DB1ECDA829FB18BE007E470B /* FlyerView.swift */,
-				DB1ECDC029FB1B9A007E470B /* LocalMapView.swift */,
-				DB1ECDBA29FB1AC6007E470B /* LeaderboardView.swift */,
-				DB1ECDA229FB183B007E470B /* TaskMarketView.swift */,
-				DB1ECD7B29FB1362007E470B /* ContentView.swift */,
 				DB1ECD9C29FB17A5007E470B /* CommunityBoardsView.swift */,
-				DB1ECD9029FB142A007E470B /* ProfileView.swift */,
+				DB1ECD7B29FB1362007E470B /* ContentView.swift */,
+				DB1ECDA829FB18BE007E470B /* FlyerView.swift */,
 				DB1ECD8C29FB140E007E470B /* HomeView.swift */,
+				DB1ECDB229FB19D7007E470B /* JobsView.swift */,
+				DB1ECDBA29FB1AC6007E470B /* LeaderboardView.swift */,
+				DB1ECDC029FB1B9A007E470B /* LocalMapView.swift */,
+				DB1ECD8A29FB13DC007E470B /* MainTabView.swift */,
+				DB1ECD9029FB142A007E470B /* ProfileView.swift */,
+				DB1ECD8E29FB141C007E470B /* ResourcesView.swift */,
+				DB1ECDA229FB183B007E470B /* TaskMarketView.swift */,
+				DB1ECD9629FB15A8007E470B /* VolunteerSignUpView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -157,20 +157,20 @@
 		DB1ECD8829FB13A4007E470B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				DB1ECD9229FB1463007E470B /* Resource.swift */,
-				DB1ECD9829FB1633007E470B /* Volunteer.swift */,
-				DB1ECDB429FB1A14007E470B /* Job.swift */,
+				DB1ECD9E29FB17DB007E470B /* Board.swift */,
+				DB1ECDC429FB1BC5007E470B /* Business.swift */,
+				DB1ECDAC29FB1900007E470B /* Comic.swift */,
 				DB1ECDCA29FB1D33007E470B /* CustomAnnotation.swift */,
 				DB1ECDC229FB1BB0007E470B /* Event.swift */,
-				DB1ECDC429FB1BC5007E470B /* Business.swift */,
-				DB1ECDBC29FB1ADB007E470B /* User.swift */,
-				DB1ECDC629FB1BD6007E470B /* Restaurant.swift */,
-				DB1ECDAC29FB1900007E470B /* Comic.swift */,
-				DB1ECDB629FB1A41007E470B /* UpskillingOpportunity.swift */,
-				DB1ECDB029FB1999007E470B /* Practitioner.swift */,
 				DB1ECDAA29FB18E4007E470B /* Flyer.swift */,
+				DB1ECDB429FB1A14007E470B /* Job.swift */,
+				DB1ECDB029FB1999007E470B /* Practitioner.swift */,
+				DB1ECD9229FB1463007E470B /* Resource.swift */,
+				DB1ECDC629FB1BD6007E470B /* Restaurant.swift */,
 				DB1ECDA429FB1869007E470B /* Task.swift */,
-				DB1ECD9E29FB17DB007E470B /* Board.swift */,
+				DB1ECDB629FB1A41007E470B /* UpskillingOpportunity.swift */,
+				DB1ECDBC29FB1ADB007E470B /* User.swift */,
+				DB1ECD9829FB1633007E470B /* Volunteer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,13 +178,13 @@
 		DB1ECD8929FB13B1007E470B /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				DB1ECD9429FB147D007E470B /* ResourceViewModel.swift */,
 				DB1ECDA029FB17FC007E470B /* BoardViewModel.swift */,
-				DB1ECDA629FB187B007E470B /* TaskViewModel.swift */,
+				DB1ECDAE29FB192B007E470B /* FlyerViewModel.swift */,
 				DB1ECDB829FB1A66007E470B /* JobViewModel.swift */,
 				DB1ECDC829FB1C10007E470B /* LocalMapViewModel.swift */,
+				DB1ECD9429FB147D007E470B /* ResourceViewModel.swift */,
+				DB1ECDA629FB187B007E470B /* TaskViewModel.swift */,
 				DB1ECDBE29FB1AED007E470B /* UserViewModel.swift */,
-				DB1ECDAE29FB192B007E470B /* FlyerViewModel.swift */,
 				DB1ECD9A29FB164F007E470B /* VolunteerViewModel.swift */,
 			);
 			path = ViewModels;
