@@ -11,6 +11,39 @@
 		DB1ECD7C29FB1362007E470B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECD7B29FB1362007E470B /* ContentView.swift */; };
 		DB1ECD7E29FB1364007E470B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1ECD7D29FB1364007E470B /* Assets.xcassets */; };
 		DB1ECD8129FB1364007E470B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1ECD8029FB1364007E470B /* Preview Assets.xcassets */; };
+		DB1ECD8B29FB13DC007E470B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECD8A29FB13DC007E470B /* MainTabView.swift */; };
+		DB1ECD8D29FB140E007E470B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECD8C29FB140E007E470B /* HomeView.swift */; };
+		DB1ECD8F29FB141C007E470B /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECD8E29FB141C007E470B /* ResourcesView.swift */; };
+		DB1ECD9129FB142A007E470B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECD9029FB142A007E470B /* ProfileView.swift */; };
+		DB1ECD9329FB1463007E470B /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECD9229FB1463007E470B /* Resource.swift */; };
+		DB1ECD9529FB147D007E470B /* ResourceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECD9429FB147D007E470B /* ResourceViewModel.swift */; };
+		DB1ECD9729FB15A8007E470B /* VolunteerSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECD9629FB15A8007E470B /* VolunteerSignUpView.swift */; };
+		DB1ECD9929FB1633007E470B /* Volunteer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECD9829FB1633007E470B /* Volunteer.swift */; };
+		DB1ECD9B29FB164F007E470B /* VolunteerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECD9A29FB164F007E470B /* VolunteerViewModel.swift */; };
+		DB1ECD9D29FB17A5007E470B /* CommunityBoardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECD9C29FB17A5007E470B /* CommunityBoardsView.swift */; };
+		DB1ECD9F29FB17DB007E470B /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECD9E29FB17DB007E470B /* Board.swift */; };
+		DB1ECDA129FB17FC007E470B /* BoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDA029FB17FC007E470B /* BoardViewModel.swift */; };
+		DB1ECDA329FB183B007E470B /* TaskMarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDA229FB183B007E470B /* TaskMarketView.swift */; };
+		DB1ECDA529FB1869007E470B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDA429FB1869007E470B /* Task.swift */; };
+		DB1ECDA729FB187B007E470B /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDA629FB187B007E470B /* TaskViewModel.swift */; };
+		DB1ECDA929FB18BE007E470B /* FlyerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDA829FB18BE007E470B /* FlyerView.swift */; };
+		DB1ECDAB29FB18E4007E470B /* Flyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDAA29FB18E4007E470B /* Flyer.swift */; };
+		DB1ECDAD29FB1900007E470B /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDAC29FB1900007E470B /* Comic.swift */; };
+		DB1ECDAF29FB192B007E470B /* FlyerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDAE29FB192B007E470B /* FlyerViewModel.swift */; };
+		DB1ECDB129FB1999007E470B /* Practitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDB029FB1999007E470B /* Practitioner.swift */; };
+		DB1ECDB329FB19D7007E470B /* JobsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDB229FB19D7007E470B /* JobsView.swift */; };
+		DB1ECDB529FB1A14007E470B /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDB429FB1A14007E470B /* Job.swift */; };
+		DB1ECDB729FB1A41007E470B /* UpskillingOpportunity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDB629FB1A41007E470B /* UpskillingOpportunity.swift */; };
+		DB1ECDB929FB1A66007E470B /* JobViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDB829FB1A66007E470B /* JobViewModel.swift */; };
+		DB1ECDBB29FB1AC6007E470B /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDBA29FB1AC6007E470B /* LeaderboardView.swift */; };
+		DB1ECDBD29FB1ADB007E470B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDBC29FB1ADB007E470B /* User.swift */; };
+		DB1ECDBF29FB1AED007E470B /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDBE29FB1AED007E470B /* UserViewModel.swift */; };
+		DB1ECDC129FB1B9A007E470B /* LocalMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDC029FB1B9A007E470B /* LocalMapView.swift */; };
+		DB1ECDC329FB1BB0007E470B /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDC229FB1BB0007E470B /* Event.swift */; };
+		DB1ECDC529FB1BC5007E470B /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDC429FB1BC5007E470B /* Business.swift */; };
+		DB1ECDC729FB1BD6007E470B /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDC629FB1BD6007E470B /* Restaurant.swift */; };
+		DB1ECDC929FB1C10007E470B /* LocalMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDC829FB1C10007E470B /* LocalMapViewModel.swift */; };
+		DB1ECDCB29FB1D33007E470B /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDCA29FB1D33007E470B /* CustomAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +52,39 @@
 		DB1ECD7B29FB1362007E470B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB1ECD7D29FB1364007E470B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB1ECD8029FB1364007E470B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB1ECD8A29FB13DC007E470B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		DB1ECD8C29FB140E007E470B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DB1ECD8E29FB141C007E470B /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
+		DB1ECD9029FB142A007E470B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DB1ECD9229FB1463007E470B /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		DB1ECD9429FB147D007E470B /* ResourceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceViewModel.swift; sourceTree = "<group>"; };
+		DB1ECD9629FB15A8007E470B /* VolunteerSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerSignUpView.swift; sourceTree = "<group>"; };
+		DB1ECD9829FB1633007E470B /* Volunteer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volunteer.swift; sourceTree = "<group>"; };
+		DB1ECD9A29FB164F007E470B /* VolunteerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerViewModel.swift; sourceTree = "<group>"; };
+		DB1ECD9C29FB17A5007E470B /* CommunityBoardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityBoardsView.swift; sourceTree = "<group>"; };
+		DB1ECD9E29FB17DB007E470B /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		DB1ECDA029FB17FC007E470B /* BoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewModel.swift; sourceTree = "<group>"; };
+		DB1ECDA229FB183B007E470B /* TaskMarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskMarketView.swift; sourceTree = "<group>"; };
+		DB1ECDA429FB1869007E470B /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		DB1ECDA629FB187B007E470B /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		DB1ECDA829FB18BE007E470B /* FlyerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerView.swift; sourceTree = "<group>"; };
+		DB1ECDAA29FB18E4007E470B /* Flyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyer.swift; sourceTree = "<group>"; };
+		DB1ECDAC29FB1900007E470B /* Comic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic.swift; sourceTree = "<group>"; };
+		DB1ECDAE29FB192B007E470B /* FlyerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerViewModel.swift; sourceTree = "<group>"; };
+		DB1ECDB029FB1999007E470B /* Practitioner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practitioner.swift; sourceTree = "<group>"; };
+		DB1ECDB229FB19D7007E470B /* JobsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsView.swift; sourceTree = "<group>"; };
+		DB1ECDB429FB1A14007E470B /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		DB1ECDB629FB1A41007E470B /* UpskillingOpportunity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpskillingOpportunity.swift; sourceTree = "<group>"; };
+		DB1ECDB829FB1A66007E470B /* JobViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobViewModel.swift; sourceTree = "<group>"; };
+		DB1ECDBA29FB1AC6007E470B /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		DB1ECDBC29FB1ADB007E470B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DB1ECDBE29FB1AED007E470B /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		DB1ECDC029FB1B9A007E470B /* LocalMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMapView.swift; sourceTree = "<group>"; };
+		DB1ECDC229FB1BB0007E470B /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		DB1ECDC429FB1BC5007E470B /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		DB1ECDC629FB1BD6007E470B /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		DB1ECDC829FB1C10007E470B /* LocalMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMapViewModel.swift; sourceTree = "<group>"; };
+		DB1ECDCA29FB1D33007E470B /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +118,9 @@
 			isa = PBXGroup;
 			children = (
 				DB1ECD7929FB1362007E470B /* OperationMeteorApp.swift */,
-				DB1ECD7B29FB1362007E470B /* ContentView.swift */,
+				DB1ECD8929FB13B1007E470B /* ViewModels */,
+				DB1ECD8829FB13A4007E470B /* Models */,
+				DB1ECD8729FB139A007E470B /* Views */,
 				DB1ECD7D29FB1364007E470B /* Assets.xcassets */,
 				DB1ECD7F29FB1364007E470B /* Preview Content */,
 			);
@@ -65,6 +133,61 @@
 				DB1ECD8029FB1364007E470B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB1ECD8729FB139A007E470B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB1ECD8A29FB13DC007E470B /* MainTabView.swift */,
+				DB1ECD9629FB15A8007E470B /* VolunteerSignUpView.swift */,
+				DB1ECDB229FB19D7007E470B /* JobsView.swift */,
+				DB1ECD8E29FB141C007E470B /* ResourcesView.swift */,
+				DB1ECDA829FB18BE007E470B /* FlyerView.swift */,
+				DB1ECDC029FB1B9A007E470B /* LocalMapView.swift */,
+				DB1ECDBA29FB1AC6007E470B /* LeaderboardView.swift */,
+				DB1ECDA229FB183B007E470B /* TaskMarketView.swift */,
+				DB1ECD7B29FB1362007E470B /* ContentView.swift */,
+				DB1ECD9C29FB17A5007E470B /* CommunityBoardsView.swift */,
+				DB1ECD9029FB142A007E470B /* ProfileView.swift */,
+				DB1ECD8C29FB140E007E470B /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB1ECD8829FB13A4007E470B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB1ECD9229FB1463007E470B /* Resource.swift */,
+				DB1ECD9829FB1633007E470B /* Volunteer.swift */,
+				DB1ECDB429FB1A14007E470B /* Job.swift */,
+				DB1ECDCA29FB1D33007E470B /* CustomAnnotation.swift */,
+				DB1ECDC229FB1BB0007E470B /* Event.swift */,
+				DB1ECDC429FB1BC5007E470B /* Business.swift */,
+				DB1ECDBC29FB1ADB007E470B /* User.swift */,
+				DB1ECDC629FB1BD6007E470B /* Restaurant.swift */,
+				DB1ECDAC29FB1900007E470B /* Comic.swift */,
+				DB1ECDB629FB1A41007E470B /* UpskillingOpportunity.swift */,
+				DB1ECDB029FB1999007E470B /* Practitioner.swift */,
+				DB1ECDAA29FB18E4007E470B /* Flyer.swift */,
+				DB1ECDA429FB1869007E470B /* Task.swift */,
+				DB1ECD9E29FB17DB007E470B /* Board.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB1ECD8929FB13B1007E470B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DB1ECD9429FB147D007E470B /* ResourceViewModel.swift */,
+				DB1ECDA029FB17FC007E470B /* BoardViewModel.swift */,
+				DB1ECDA629FB187B007E470B /* TaskViewModel.swift */,
+				DB1ECDB829FB1A66007E470B /* JobViewModel.swift */,
+				DB1ECDC829FB1C10007E470B /* LocalMapViewModel.swift */,
+				DB1ECDBE29FB1AED007E470B /* UserViewModel.swift */,
+				DB1ECDAE29FB192B007E470B /* FlyerViewModel.swift */,
+				DB1ECD9A29FB164F007E470B /* VolunteerViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +261,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB1ECD7C29FB1362007E470B /* ContentView.swift in Sources */,
+				DB1ECDBF29FB1AED007E470B /* UserViewModel.swift in Sources */,
+				DB1ECDB529FB1A14007E470B /* Job.swift in Sources */,
+				DB1ECDB129FB1999007E470B /* Practitioner.swift in Sources */,
+				DB1ECDB329FB19D7007E470B /* JobsView.swift in Sources */,
+				DB1ECDA929FB18BE007E470B /* FlyerView.swift in Sources */,
+				DB1ECDB729FB1A41007E470B /* UpskillingOpportunity.swift in Sources */,
+				DB1ECD9B29FB164F007E470B /* VolunteerViewModel.swift in Sources */,
+				DB1ECDBB29FB1AC6007E470B /* LeaderboardView.swift in Sources */,
+				DB1ECD8D29FB140E007E470B /* HomeView.swift in Sources */,
+				DB1ECDB929FB1A66007E470B /* JobViewModel.swift in Sources */,
+				DB1ECDC729FB1BD6007E470B /* Restaurant.swift in Sources */,
+				DB1ECD9D29FB17A5007E470B /* CommunityBoardsView.swift in Sources */,
+				DB1ECD9729FB15A8007E470B /* VolunteerSignUpView.swift in Sources */,
+				DB1ECDC329FB1BB0007E470B /* Event.swift in Sources */,
+				DB1ECDC929FB1C10007E470B /* LocalMapViewModel.swift in Sources */,
+				DB1ECDA329FB183B007E470B /* TaskMarketView.swift in Sources */,
 				DB1ECD7A29FB1362007E470B /* OperationMeteorApp.swift in Sources */,
+				DB1ECD9F29FB17DB007E470B /* Board.swift in Sources */,
+				DB1ECDA529FB1869007E470B /* Task.swift in Sources */,
+				DB1ECD9929FB1633007E470B /* Volunteer.swift in Sources */,
+				DB1ECD8B29FB13DC007E470B /* MainTabView.swift in Sources */,
+				DB1ECD9129FB142A007E470B /* ProfileView.swift in Sources */,
+				DB1ECDC529FB1BC5007E470B /* Business.swift in Sources */,
+				DB1ECDAB29FB18E4007E470B /* Flyer.swift in Sources */,
+				DB1ECDBD29FB1ADB007E470B /* User.swift in Sources */,
+				DB1ECD8F29FB141C007E470B /* ResourcesView.swift in Sources */,
+				DB1ECDCB29FB1D33007E470B /* CustomAnnotation.swift in Sources */,
+				DB1ECD9529FB147D007E470B /* ResourceViewModel.swift in Sources */,
+				DB1ECD9329FB1463007E470B /* Resource.swift in Sources */,
+				DB1ECDAD29FB1900007E470B /* Comic.swift in Sources */,
+				DB1ECDA129FB17FC007E470B /* BoardViewModel.swift in Sources */,
+				DB1ECDAF29FB192B007E470B /* FlyerViewModel.swift in Sources */,
+				DB1ECDA729FB187B007E470B /* TaskViewModel.swift in Sources */,
+				DB1ECDC129FB1B9A007E470B /* LocalMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
