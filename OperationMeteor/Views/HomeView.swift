@@ -19,17 +19,20 @@ struct HomeView: View {
                 // Add other NavigationLinks for other views
                 
                 Text("Welcome to Operation Meteor!")
-                    .font(.largeTitle)
+                    .font(.largeTitle).lineLimit(nil)
+                    .minimumScaleFactor(0.5)
                     .fontWeight(.bold)
                 
                 Text("Explore our upcoming projects:")
-                    .font(.headline)
+                    .font(.headline).lineLimit(nil)
+                    .minimumScaleFactor(0.5)
                 
                 ScrollView(.vertical, showsIndicators: false) {
                     VStack(alignment: .leading, spacing: 15) {
                         ForEach(upcomingProjects, id: \.self) { project in
                             Text(project)
-                                .font(.body)
+                                .font(.body).lineLimit(nil)
+                                .minimumScaleFactor(0.5)
                                 .padding(.leading, 10)
                         }
                     }

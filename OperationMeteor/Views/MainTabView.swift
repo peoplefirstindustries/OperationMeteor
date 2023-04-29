@@ -13,8 +13,6 @@ struct MainTabView: View {
     var body: some View {
         TabView(selection: $selectedTab) {
             TabBar()
-                .navigationBarTitle("", displayMode: .inline)
-                .navigationBarHidden(true)
         }
     }
 }

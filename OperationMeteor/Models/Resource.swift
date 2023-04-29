@@ -8,7 +8,9 @@
 import Foundation
 
 struct Resource: Identifiable {
-    let id: UUID
-    let title: String
-    let description: String
+    var id = UUID()
+    var title: String
+    var category: String
+    var description: String
+    var link: String
 }

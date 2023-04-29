@@ -11,59 +11,63 @@ struct ResourcesView: View {
     @StateObject private var viewModel = ResourceViewModel()
 
     var body: some View {
-        NavigationView {
-            ScrollView {
-                VStack(alignment: .leading) {
-                    Text("Mental Health Resources")
-                        .font(.title)
-                        .padding(.top)
-
-                    ForEach(viewModel.resources) { resource in
-                        ResourceRow(resource: resource)
-                    }
-                    
-                    Text("Practitioners")
-                        .font(.title)
-                        .padding(.top)
-
-                    ForEach(viewModel.practitioners) { practitioner in
-                        PractitionerRow(practitioner: practitioner)
-                    }
-                }
-                .padding()
+        TabView {
+            NavigationView {
+                AboutView()
             }
-            .navigationTitle("Resources")
+            .tabItem {
+                Image(systemName: "info.circle")
+                Text("About")
+            }
+
+            NavigationView {
+                BookSessionView()
+            }
+            .tabItem {
+                Image(systemName: "calendar.badge.plus")
+                Text("Book Session")
+            }
+
+            NavigationView {
+                SearchResourcesView()
+            }
+            .tabItem {
+                Image(systemName: "books.vertical")
+                Text("Resources")
+            }
+
+            NavigationView {
+                TestimonialsView(viewModel: TestimonialViewModel(apiClient: MockTestimonialAPIClient()))
+            }
+            .tabItem {
+                Image(systemName: "text.bubble")
+                Text("Testimonials")
+            }
+
+            NavigationView {
+                ContactUsView()
+            }
+            .tabItem {
+                Image(systemName: "envelope")
+                Text("Contact Us")
+            }
+
+            NavigationView {
+                ProfileSettingsView()
+            }
+            .tabItem {
+                Image(systemName: "person.crop.circle")
+                Text("Profile Settings")
+            }
+
+            NavigationView {
+                AppInfoView()
+            }
+            .tabItem {
+                Image(systemName: "gear")
+                Text("App Info")
+            }
         }
-    }
-}
-
-struct ResourceRow: View {
-    let resource: Resource
-
-    var body: some View {
-        VStack(alignment: .leading) {
-            Text(resource.title)
-                .font(.headline)
-            Text(resource.description)
-                .font(.subheadline)
-                .foregroundColor(.secondary)
-        }
-        .padding(.bottom)
-    }
-}
-
-struct PractitionerRow: View {
-    let practitioner: Practitioner
-
-    var body: some View {
-        VStack(alignment: .leading) {
-            Text(practitioner.name)
-                .font(.headline)
-            Text(practitioner.specialty)
-                .font(.subheadline)
-                .foregroundColor(.secondary)
-        }
-        .padding(.bottom)
     }
 }
 

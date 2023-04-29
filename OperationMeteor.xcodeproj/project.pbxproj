@@ -44,6 +44,18 @@
 		DB1ECDC729FB1BD6007E470B /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDC629FB1BD6007E470B /* Restaurant.swift */; };
 		DB1ECDC929FB1C10007E470B /* LocalMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDC829FB1C10007E470B /* LocalMapViewModel.swift */; };
 		DB1ECDCB29FB1D33007E470B /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDCA29FB1D33007E470B /* CustomAnnotation.swift */; };
+		DB7EC69F29FCA5E3008BD9CA /* SearchResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7EC69A29FCA5E3008BD9CA /* SearchResourcesView.swift */; };
+		DB7EC6A029FCA5E3008BD9CA /* TestimonialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7EC69B29FCA5E3008BD9CA /* TestimonialsView.swift */; };
+		DB7EC6A129FCA5E3008BD9CA /* BookSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7EC69C29FCA5E3008BD9CA /* BookSessionView.swift */; };
+		DB7EC6A229FCA5E3008BD9CA /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7EC69D29FCA5E3008BD9CA /* AboutView.swift */; };
+		DB7EC6A329FCA5E3008BD9CA /* TherapistProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7EC69E29FCA5E3008BD9CA /* TherapistProfileView.swift */; };
+		DB7EC6A529FCA602008BD9CA /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7EC6A429FCA602008BD9CA /* ContactUsView.swift */; };
+		DB7EC6A829FCA60A008BD9CA /* AppInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7EC6A629FCA60A008BD9CA /* AppInfoView.swift */; };
+		DB7EC6A929FCA60A008BD9CA /* ProfileSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7EC6A729FCA60A008BD9CA /* ProfileSettingsView.swift */; };
+		DB7EC6AC29FCA62F008BD9CA /* TestimonialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7EC6AA29FCA62F008BD9CA /* TestimonialViewModel.swift */; };
+		DB7EC6AD29FCA62F008BD9CA /* ServicesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7EC6AB29FCA62F008BD9CA /* ServicesViewModel.swift */; };
+		DB7EC6B029FCA674008BD9CA /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7EC6AE29FCA673008BD9CA /* Service.swift */; };
+		DB7EC6B129FCA674008BD9CA /* Testimonial.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7EC6AF29FCA673008BD9CA /* Testimonial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +97,18 @@
 		DB1ECDC629FB1BD6007E470B /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		DB1ECDC829FB1C10007E470B /* LocalMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMapViewModel.swift; sourceTree = "<group>"; };
 		DB1ECDCA29FB1D33007E470B /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		DB7EC69A29FCA5E3008BD9CA /* SearchResourcesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResourcesView.swift; sourceTree = "<group>"; };
+		DB7EC69B29FCA5E3008BD9CA /* TestimonialsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestimonialsView.swift; sourceTree = "<group>"; };
+		DB7EC69C29FCA5E3008BD9CA /* BookSessionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookSessionView.swift; sourceTree = "<group>"; };
+		DB7EC69D29FCA5E3008BD9CA /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		DB7EC69E29FCA5E3008BD9CA /* TherapistProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TherapistProfileView.swift; sourceTree = "<group>"; };
+		DB7EC6A429FCA602008BD9CA /* ContactUsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsView.swift; sourceTree = "<group>"; };
+		DB7EC6A629FCA60A008BD9CA /* AppInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfoView.swift; sourceTree = "<group>"; };
+		DB7EC6A729FCA60A008BD9CA /* ProfileSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSettingsView.swift; sourceTree = "<group>"; };
+		DB7EC6AA29FCA62F008BD9CA /* TestimonialViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestimonialViewModel.swift; sourceTree = "<group>"; };
+		DB7EC6AB29FCA62F008BD9CA /* ServicesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesViewModel.swift; sourceTree = "<group>"; };
+		DB7EC6AE29FCA673008BD9CA /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		DB7EC6AF29FCA673008BD9CA /* Testimonial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Testimonial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,9 +164,17 @@
 			children = (
 				DB1ECD9C29FB17A5007E470B /* CommunityBoardsView.swift */,
 				DB1ECD7B29FB1362007E470B /* ContentView.swift */,
+				DB7EC6A429FCA602008BD9CA /* ContactUsView.swift */,
+				DB7EC6A629FCA60A008BD9CA /* AppInfoView.swift */,
+				DB7EC6A729FCA60A008BD9CA /* ProfileSettingsView.swift */,
 				DB1ECDA829FB18BE007E470B /* FlyerView.swift */,
 				DB1ECD8C29FB140E007E470B /* HomeView.swift */,
 				DB1ECDB229FB19D7007E470B /* JobsView.swift */,
+				DB7EC69D29FCA5E3008BD9CA /* AboutView.swift */,
+				DB7EC69C29FCA5E3008BD9CA /* BookSessionView.swift */,
+				DB7EC69A29FCA5E3008BD9CA /* SearchResourcesView.swift */,
+				DB7EC69B29FCA5E3008BD9CA /* TestimonialsView.swift */,
+				DB7EC69E29FCA5E3008BD9CA /* TherapistProfileView.swift */,
 				DB1ECDBA29FB1AC6007E470B /* LeaderboardView.swift */,
 				DB1ECDC029FB1B9A007E470B /* LocalMapView.swift */,
 				DB1ECD8A29FB13DC007E470B /* MainTabView.swift */,
@@ -165,6 +197,8 @@
 				DB1ECDAA29FB18E4007E470B /* Flyer.swift */,
 				DB1ECDB429FB1A14007E470B /* Job.swift */,
 				DB1ECDB029FB1999007E470B /* Practitioner.swift */,
+				DB7EC6AE29FCA673008BD9CA /* Service.swift */,
+				DB7EC6AF29FCA673008BD9CA /* Testimonial.swift */,
 				DB1ECD9229FB1463007E470B /* Resource.swift */,
 				DB1ECDC629FB1BD6007E470B /* Restaurant.swift */,
 				DB1ECDA429FB1869007E470B /* Task.swift */,
@@ -183,6 +217,8 @@
 				DB1ECDB829FB1A66007E470B /* JobViewModel.swift */,
 				DB1ECDC829FB1C10007E470B /* LocalMapViewModel.swift */,
 				DB1ECD9429FB147D007E470B /* ResourceViewModel.swift */,
+				DB7EC6AB29FCA62F008BD9CA /* ServicesViewModel.swift */,
+				DB7EC6AA29FCA62F008BD9CA /* TestimonialViewModel.swift */,
 				DB1ECDA629FB187B007E470B /* TaskViewModel.swift */,
 				DB1ECDBE29FB1AED007E470B /* UserViewModel.swift */,
 				DB1ECD9A29FB164F007E470B /* VolunteerViewModel.swift */,
@@ -261,8 +297,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB1ECD7C29FB1362007E470B /* ContentView.swift in Sources */,
+				DB7EC6B029FCA674008BD9CA /* Service.swift in Sources */,
 				DB1ECDBF29FB1AED007E470B /* UserViewModel.swift in Sources */,
 				DB1ECDB529FB1A14007E470B /* Job.swift in Sources */,
+				DB7EC6A929FCA60A008BD9CA /* ProfileSettingsView.swift in Sources */,
+				DB7EC6A029FCA5E3008BD9CA /* TestimonialsView.swift in Sources */,
+				DB7EC6A229FCA5E3008BD9CA /* AboutView.swift in Sources */,
+				DB7EC6A329FCA5E3008BD9CA /* TherapistProfileView.swift in Sources */,
 				DB1ECDB129FB1999007E470B /* Practitioner.swift in Sources */,
 				DB1ECDB329FB19D7007E470B /* JobsView.swift in Sources */,
 				DB1ECDA929FB18BE007E470B /* FlyerView.swift in Sources */,
@@ -283,18 +324,25 @@
 				DB1ECD9929FB1633007E470B /* Volunteer.swift in Sources */,
 				DB1ECD8B29FB13DC007E470B /* MainTabView.swift in Sources */,
 				DB1ECD9129FB142A007E470B /* ProfileView.swift in Sources */,
+				DB7EC6A129FCA5E3008BD9CA /* BookSessionView.swift in Sources */,
 				DB1ECDC529FB1BC5007E470B /* Business.swift in Sources */,
 				DB1ECDAB29FB18E4007E470B /* Flyer.swift in Sources */,
 				DB1ECDBD29FB1ADB007E470B /* User.swift in Sources */,
+				DB7EC6A829FCA60A008BD9CA /* AppInfoView.swift in Sources */,
 				DB1ECD8F29FB141C007E470B /* ResourcesView.swift in Sources */,
+				DB7EC6A529FCA602008BD9CA /* ContactUsView.swift in Sources */,
 				DB1ECDCB29FB1D33007E470B /* CustomAnnotation.swift in Sources */,
 				DB1ECD9529FB147D007E470B /* ResourceViewModel.swift in Sources */,
 				DB1ECD9329FB1463007E470B /* Resource.swift in Sources */,
 				DB1ECDAD29FB1900007E470B /* Comic.swift in Sources */,
+				DB7EC6AC29FCA62F008BD9CA /* TestimonialViewModel.swift in Sources */,
 				DB1ECDA129FB17FC007E470B /* BoardViewModel.swift in Sources */,
+				DB7EC6B129FCA674008BD9CA /* Testimonial.swift in Sources */,
+				DB7EC69F29FCA5E3008BD9CA /* SearchResourcesView.swift in Sources */,
 				DB1ECDAF29FB192B007E470B /* FlyerViewModel.swift in Sources */,
 				DB1ECDA729FB187B007E470B /* TaskViewModel.swift in Sources */,
 				DB1ECDC129FB1B9A007E470B /* LocalMapView.swift in Sources */,
+				DB7EC6AD29FCA62F008BD9CA /* ServicesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
