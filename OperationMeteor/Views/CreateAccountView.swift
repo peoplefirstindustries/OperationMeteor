@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct CreateAccountView: View {
     @Environment(\.presentationMode) var presentationMode
@@ -33,10 +34,18 @@ struct CreateAccountView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button("Save") {
-                        // Handle save action
+                        register()
                         presentationMode.wrappedValue.dismiss()
                     }
                 }
+            }
+        }
+    }
+    
+    func register() {
+        Auth.auth().createUser(withEmail: email, password: password) {result, error in
+            if error != nil {
+                print(error?.localizedDescription ?? "Registration Error")
             }
         }
     }

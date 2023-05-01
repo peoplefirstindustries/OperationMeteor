@@ -13,3 +13,5 @@ struct Board: Identifiable {
     let description: String
     let image: String
 }
+
+
