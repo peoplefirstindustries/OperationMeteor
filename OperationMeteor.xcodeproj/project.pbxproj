@@ -44,6 +44,7 @@
 		DB1ECDC729FB1BD6007E470B /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDC629FB1BD6007E470B /* Restaurant.swift */; };
 		DB1ECDC929FB1C10007E470B /* LocalMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDC829FB1C10007E470B /* LocalMapViewModel.swift */; };
 		DB1ECDCB29FB1D33007E470B /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDCA29FB1D33007E470B /* CustomAnnotation.swift */; };
+		DB710EEA2A00265900EC8529 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB710EE92A00265900EC8529 /* UploadView.swift */; };
 		DB7EC69F29FCA5E3008BD9CA /* SearchResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7EC69A29FCA5E3008BD9CA /* SearchResourcesView.swift */; };
 		DB7EC6A029FCA5E3008BD9CA /* TestimonialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7EC69B29FCA5E3008BD9CA /* TestimonialsView.swift */; };
 		DB7EC6A129FCA5E3008BD9CA /* BookSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7EC69C29FCA5E3008BD9CA /* BookSessionView.swift */; };
@@ -97,6 +98,7 @@
 		DB1ECDC629FB1BD6007E470B /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		DB1ECDC829FB1C10007E470B /* LocalMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMapViewModel.swift; sourceTree = "<group>"; };
 		DB1ECDCA29FB1D33007E470B /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		DB710EE92A00265900EC8529 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
 		DB7EC69A29FCA5E3008BD9CA /* SearchResourcesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResourcesView.swift; sourceTree = "<group>"; };
 		DB7EC69B29FCA5E3008BD9CA /* TestimonialsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestimonialsView.swift; sourceTree = "<group>"; };
 		DB7EC69C29FCA5E3008BD9CA /* BookSessionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookSessionView.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				DB1ECDB229FB19D7007E470B /* JobsView.swift */,
 				DB7EC69D29FCA5E3008BD9CA /* AboutView.swift */,
 				DB7EC69C29FCA5E3008BD9CA /* BookSessionView.swift */,
+				DB710EE92A00265900EC8529 /* UploadView.swift */,
 				DB7EC69A29FCA5E3008BD9CA /* SearchResourcesView.swift */,
 				DB7EC69B29FCA5E3008BD9CA /* TestimonialsView.swift */,
 				DB7EC69E29FCA5E3008BD9CA /* TherapistProfileView.swift */,
@@ -323,6 +326,7 @@
 				DB1ECDA529FB1869007E470B /* Task.swift in Sources */,
 				DB1ECD9929FB1633007E470B /* Volunteer.swift in Sources */,
 				DB1ECD8B29FB13DC007E470B /* MainTabView.swift in Sources */,
+				DB710EEA2A00265900EC8529 /* UploadView.swift in Sources */,
 				DB1ECD9129FB142A007E470B /* ProfileView.swift in Sources */,
 				DB7EC6A129FCA5E3008BD9CA /* BookSessionView.swift in Sources */,
 				DB1ECDC529FB1BC5007E470B /* Business.swift in Sources */,

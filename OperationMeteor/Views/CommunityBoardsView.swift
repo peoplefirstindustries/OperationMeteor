@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CommunityBoardsView: View {
     @StateObject private var viewModel = BoardViewModel()
+    @State private var showUploadView = false
 
     var body: some View {
         ScrollView {
@@ -19,6 +20,22 @@ struct CommunityBoardsView: View {
             }
             .padding()
         }
+        .overlay(
+                    Button(action: {
+                        showUploadView.toggle()
+                    }, label: {
+                        Image(systemName: "plus.circle.fill")
+                            .resizable()
+                            .frame(width: 60, height: 60)
+                            .foregroundColor(.blue)
+                    })
+                    .padding(.trailing, 16)
+                    .padding(.bottom, 16),
+                    alignment: .bottomTrailing
+                )
+                .sheet(isPresented: $showUploadView, content: {
+                    UploadView()
+                })
         .navigationTitle("Community Boards")
     }
 }
