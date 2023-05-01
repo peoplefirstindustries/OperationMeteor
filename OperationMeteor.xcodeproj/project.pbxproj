@@ -45,6 +45,7 @@
 		DB1ECDC929FB1C10007E470B /* LocalMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDC829FB1C10007E470B /* LocalMapViewModel.swift */; };
 		DB1ECDCB29FB1D33007E470B /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECDCA29FB1D33007E470B /* CustomAnnotation.swift */; };
 		DB710EEA2A00265900EC8529 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB710EE92A00265900EC8529 /* UploadView.swift */; };
+		DB710EEC2A0027F200EC8529 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB710EEB2A0027F200EC8529 /* CreateAccountView.swift */; };
 		DB7EC69F29FCA5E3008BD9CA /* SearchResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7EC69A29FCA5E3008BD9CA /* SearchResourcesView.swift */; };
 		DB7EC6A029FCA5E3008BD9CA /* TestimonialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7EC69B29FCA5E3008BD9CA /* TestimonialsView.swift */; };
 		DB7EC6A129FCA5E3008BD9CA /* BookSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7EC69C29FCA5E3008BD9CA /* BookSessionView.swift */; };
@@ -99,6 +100,7 @@
 		DB1ECDC829FB1C10007E470B /* LocalMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMapViewModel.swift; sourceTree = "<group>"; };
 		DB1ECDCA29FB1D33007E470B /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 		DB710EE92A00265900EC8529 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		DB710EEB2A0027F200EC8529 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
 		DB7EC69A29FCA5E3008BD9CA /* SearchResourcesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResourcesView.swift; sourceTree = "<group>"; };
 		DB7EC69B29FCA5E3008BD9CA /* TestimonialsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestimonialsView.swift; sourceTree = "<group>"; };
 		DB7EC69C29FCA5E3008BD9CA /* BookSessionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookSessionView.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				DB1ECD9C29FB17A5007E470B /* CommunityBoardsView.swift */,
 				DB1ECD7B29FB1362007E470B /* ContentView.swift */,
 				DB7EC6A429FCA602008BD9CA /* ContactUsView.swift */,
+				DB710EEB2A0027F200EC8529 /* CreateAccountView.swift */,
 				DB7EC6A629FCA60A008BD9CA /* AppInfoView.swift */,
 				DB7EC6A729FCA60A008BD9CA /* ProfileSettingsView.swift */,
 				DB1ECDA829FB18BE007E470B /* FlyerView.swift */,
@@ -323,6 +326,7 @@
 				DB1ECDA329FB183B007E470B /* TaskMarketView.swift in Sources */,
 				DB1ECD7A29FB1362007E470B /* OperationMeteorApp.swift in Sources */,
 				DB1ECD9F29FB17DB007E470B /* Board.swift in Sources */,
+				DB710EEC2A0027F200EC8529 /* CreateAccountView.swift in Sources */,
 				DB1ECDA529FB1869007E470B /* Task.swift in Sources */,
 				DB1ECD9929FB1633007E470B /* Volunteer.swift in Sources */,
 				DB1ECD8B29FB13DC007E470B /* MainTabView.swift in Sources */,

@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct ProfileView: View {
+    @State private var showCreateAccountView = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Button(action: {
+                showCreateAccountView.toggle()
+            }, label: {
+                Text("Create Account")
+                    .font(.title)
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.blue)
+                    .cornerRadius(10)
+            })
+        }
+        .sheet(isPresented: $showCreateAccountView, content: {
+            CreateAccountView()
+        })
     }
 }
 
