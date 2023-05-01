@@ -14,6 +14,7 @@ struct MainTabView: View {
         TabView(selection: $selectedTab) {
             TabBar()
         }
+        .background(Color.clear)
     }
 }
 
@@ -72,7 +73,10 @@ struct TabItem: View {
                     view(for: path)
                         .rotation3DEffect(Angle(degrees: Double(geometry.frame(in: .global).minX - 30) / -40), axis: (x: 0, y: 10.0, z: 0))
                 }
-            }
+                .background(colors(for: path).background)
+                                .cornerRadius(10)
+                                .shadow(color: colors(for: path).shadow, radius: 5, x: 0, y: 5)
+                            }
             .padding(.horizontal, 16)
         }
     }
@@ -109,54 +113,24 @@ struct TabItem: View {
         switch path {
         case .home:
             HomeView()
-                .background(background)
-                .cornerRadius(10)
-                .shadow(color: shadow, radius: 5, x: 0, y: 5)
         case .volunteerSignUp:
             VolunteerSignUpView()
-                .background(background)
-                .cornerRadius(10)
-                .shadow(color: shadow, radius: 5, x: 0, y: 5)
         case .jobs:
             JobsView()
-                .background(background)
-                .cornerRadius(10)
-                .shadow(color: shadow, radius: 5, x: 0, y: 5)
         case .resources:
             ResourcesView()
-                .background(background)
-                .cornerRadius(10)
-                .shadow(color: shadow, radius: 5, x: 0, y: 5)
         case .flyer:
             FlyerView()
-                .background(background)
-                .cornerRadius(10)
-                .shadow(color: shadow, radius: 5, x: 0, y: 5)
         case .localMap:
             LocalMapView()
-                .background(background)
-                .cornerRadius(10)
-                .shadow(color: shadow, radius: 5, x: 0, y: 5)
         case .leaderboard:
             LeaderboardView()
-                .background(background)
-                .cornerRadius(10)
-                .shadow(color: shadow, radius: 5, x: 0, y: 5)
         case .taskMarket:
             TaskMarketView()
-                .background(background)
-                .cornerRadius(10)
-                .shadow(color: shadow, radius: 5, x: 0, y: 5)
         case .communityBoards:
             CommunityBoardsView()
-                .background(background)
-                .cornerRadius(10)
-                .shadow(color: shadow, radius: 5, x: 0, y: 5)
         case .profile:
             ProfileView()
-                .background(background)
-                .cornerRadius(10)
-                .shadow(color: shadow, radius: 5, x: 0, y: 5)
         }
     }
 }
